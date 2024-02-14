@@ -1,0 +1,65 @@
+body { font-family: Tahoma, Verdana, Arial, sans-serif; 
+     margin: 0; padding: 0; 
+ }
+ .flyinghero { 
+     background-image: url(images/FlyingIn.jpg); 
+     min-height: 100vh;  
+     background-repeat: no-repeat; 
+     background-size: cover;  
+ }	
+ .rollshero { 
+     background-image: url(images/PizzaRolls.webp); 
+     min-height: 100vh;
+     background-repeat: no-repeat; 
+     background-size: cover;  
+ }
+ .chocolatehero { 
+     background-image: url(images/Chocolate.png); 
+     min-height: 100vh; 
+     /*background-repeat: no-repeat; */
+     /*background-size: cover; */
+ }
+ .cheesehero { 
+     background-image: url(images/Cheese.webp); 
+     min-height: 100vh;  
+     background-repeat: no-repeat; 
+     background-size: cover; 
+ }
+ nav { z-index:9999;
+     position: fixed;
+     top: 0;
+     left: 0;
+     padding: .5em; 
+     height: 40px;
+     background:#DA8C88;
+     width: 100%;
+     font-size: 120%;
+     font-weight: bold;
+     min-width: 900px;    	  }
+ nav ul { list-style-type: none; 
+         margin: 5px; }
+ nav ul li { display: inline; padding-left: 1em; padding-right: 1em; }
+ nav a { text-decoration:none; }
+ nav a:link { color: #EAEAEA; }
+ nav a:visited { color: #FFF; }
+ nav a:hover { color: #FDA27F; }
+ h1 { height: 100px; 
+     padding-top: 2em; 
+     text-align: center;
+     background:rgba(255, 255, 255, 0.80);
+         }
+ .space  { height: 20vh; }
+ #rolls, #chocolate, #cheese {  background-color: #FFF;
+                         width: 60%;
+                         padding-left: 6em;
+                         padding-top: 70px;
+                         padding-bottom: 2em;
+ }
+ footer {   background:rgba(25,25, 25, 0.90);
+         width: 100%;
+         font-size: 90%;
+         text-align: center;	
+         color: #EAEAEA;
+         }	
+ footer a { text-decoration: none;
+         color: #EAEAEA; }		
